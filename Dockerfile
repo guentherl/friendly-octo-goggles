@@ -1,7 +1,7 @@
 #FROM gitpod/workspace-full-vnc
 USER root
 # docker image setup could take 15-30 mins due to the size of the packages and just because it's heavy ubuntu :)
-
+WORKDIR /app
 FROM python:3.7
 
 # install basics first
