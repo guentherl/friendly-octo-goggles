@@ -1,7 +1,6 @@
 checkoutLocation: /
 workspaceLocation: /
-image:
-  file: python: 3.7
+image: python: 3.7
 #  file: Dockerfile
 ports:
   - port: 6080
