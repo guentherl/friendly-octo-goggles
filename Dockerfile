@@ -1,4 +1,5 @@
-FROM gitpod/workspace-full-vnc
+#FROM gitpod/workspace-full-vnc
+FROM debian:latest
 USER root
 RUN apt-get update                                             \
     && apt-get install -y libgtk-3-dev firefox                 \
