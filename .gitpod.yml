@@ -1,20 +1,12 @@
 checkoutLocation: /
-
 workspaceLocation: /
-
 image:
   file: Dockerfile
-
 ports:
   - port: 6080
     protocol: "http"
-
 tasks:
   - command: xterm -geometry 120x20+0+0
-
   - command: gp await-port 6080                  &&
       xterm -geometry 120x20+0+350        &&
       gp preview $(gp url 6080)
-
-
-
